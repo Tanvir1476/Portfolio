@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio using Frontend(HTML, CSS, JAVASCRIPT)  and Backend (PHP, MySql)
+Portfolio using Frontend (HTML, CSS, JAVASCRIPT) and Backend (PHP, MySql)
