@@ -11,11 +11,17 @@ body {
 
 nav {
     height: 70px;
+    width: 100%;
+    box-sizing: border-box;
     background-color: rgb(34, 34, 116);
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .left {
@@ -25,7 +31,7 @@ nav {
 
 .right ul {
     display: flex;
-    margin-left: 700px;
+    margin-right: 60px;
 }
 
 li {
@@ -50,6 +56,7 @@ li {
     justify-content: space-around;
     align-items: center;
     height: 260px;
+    padding-top: 90px;
 }
 
 .left_sec {
@@ -70,6 +77,39 @@ li {
     width: 220px;
     border-radius: 50%;
     border: 3px solid rgb(169, 93, 240);
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    padding: 0.85rem 2.2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #eef0ff;
+    background: linear-gradient(135deg, #2a3a8c, #16204f);
+    border: 1px solid rgba(169, 93, 240, 0.5);
+    border-radius: 8px;
+    text-decoration: none;
+    letter-spacing: 0.6px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    transition: background 0.3s ease, transform 0.25s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.resume-btn svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.resume-btn:hover {
+    background: linear-gradient(135deg, #35478f, #1b2760);
+    border-color: rgb(169, 93, 240);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
 }
 
 span {
